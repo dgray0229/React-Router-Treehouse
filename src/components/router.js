@@ -6,8 +6,8 @@ import {Router, Route, browserHistory} from 'react-router';
 import App from './App';
 import Home from './Home';
 import About from './About';
-import Courses from './Courses';
 import Teachers from './Teachers';
+import Courses from './Courses';
 
 // Routes
 const routes = (
