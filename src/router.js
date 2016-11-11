@@ -11,6 +11,7 @@ import Teachers from './components/Teachers';
 import NotFound from './components/NotFound';
 import CourseContainer from './components/courses/CourseContainer';
 import CourseList from './data/courses';
+import Featured from './components/Featured';
 
 
 
@@ -28,7 +29,8 @@ const routes = (
         <Route path="css" component={CourseContainer} data={CourseList.CSS} />
         <Route path="javascript" component={CourseContainer} data={CourseList.JS} />
       </Route>
-      <Route path="*" component={NotFound} />
+        <Route path="featured/:topic/:name" component={Featured} />
+        <Route path="*" component={NotFound} />
     </Route>
   </Router>
 );
