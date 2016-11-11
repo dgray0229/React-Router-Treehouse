@@ -10,10 +10,9 @@ import './css/style.css';
 import routes from './router';
 
 // Render
-render((
-    router
-),
-  document.getElementById('root')
+render(
+    routes,
+    document.getElementById('root')
 );
 
 

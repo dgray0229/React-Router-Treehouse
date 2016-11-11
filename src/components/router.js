@@ -3,11 +3,11 @@ import React from 'react';
 import { render } from 'react-dom';
 import {Router, Route, hashHistory} from 'react-router';
 
-import App from './components/App';
-import Home from './components/Home';
-import About from './components/About';
-import Courses from './components/Courses';
-import Teachers from './components/Teachers';
+import App from './App';
+import Home from './Home';
+import About from './About';
+import Courses from './Courses';
+import Teachers from './Teachers';
 
 // Routes
 const routes = (
@@ -20,4 +20,6 @@ const routes = (
         </Route>
     </Router>
 
-)
+);
+
+export default routes;
